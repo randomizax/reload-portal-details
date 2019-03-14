@@ -2,19 +2,15 @@
 // @id             iitc-plugin-reload-portal-details@randomizax
 // @name           IITC plugin: add a button to refresh portal details
 // @category       Info
-// @version        1.0.0.20181124.13512
+// @version        1.0.1.20190314.160026
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
-// @updateURL      https://rawgit.com/randomizax/reload-portal-details/latest/reload-portal-details.meta.js
-// @downloadURL    https://rawgit.com/randomizax/reload-portal-details/latest/reload-portal-details.user.js
-// @description    [randomizax-2018-11-24-013512] Add a button so that quickly refresh portal details data.
-// @include        https://www.ingress.com/intel*
-// @include        http://www.ingress.com/intel*
-// @include        https://intel.ingress.com/intel*
-// @include        http://intel.ingress.com/intel*
-// @match          https://www.ingress.com/intel*
-// @match          http://www.ingress.com/intel*
-// @match          https://intel.ingress.com/intel*
-// @match          http://intel.ingress.com/intel*
+// @updateURL      https://randomizax.github.io/reload-portal-details/reload-portal-details.meta.js
+// @downloadURL    https://randomizax.github.io/reload-portal-details/reload-portal-details.user.js
+// @description    [randomizax-2019-03-14-160026] Add a button so that quickly refresh portal details data.
+// @include        https://*.ingress.com/intel*
+// @include        http://*.ingress.com/intel*
+// @match          https://*.ingress.com/intel*
+// @match          http://*.ingress.com/intel*
 // @grant          none
 // ==/UserScript==
 
@@ -26,7 +22,7 @@ if(typeof window.plugin !== 'function') window.plugin = function() {};
 //PLUGIN AUTHORS: writing a plugin outside of the IITC build environment? if so, delete these lines!!
 //(leaving them in place might break the 'About IITC' page or break update checks)
 // plugin_info.buildName = 'randomizax';
-// plugin_info.dateTimeVersion = '20181124.13512';
+// plugin_info.dateTimeVersion = '20190314.160026';
 // plugin_info.pluginId = 'reload-portal-details';
 //END PLUGIN AUTHORS NOTE
 

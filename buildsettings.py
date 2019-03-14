@@ -15,7 +15,7 @@ buildSettings = {
     # no external resources allowed - they're not needed any more
     'randomizax': {
         'resourceUrlBase': None,
-        'distUrlBase': 'https://rawgit.com/randomizax/reload-portal-details/latest',
+        'distUrlBase': 'https://randomizax.github.io/reload-portal-details',
     },
 
     # local8000: if you need to modify external resources, this build will load them from
